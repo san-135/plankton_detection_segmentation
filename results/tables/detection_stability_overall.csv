@@ -1,0 +1,3 @@
+detector,n_orig,n_aug,count_ratio,kept_rate,new_rate,mean_iou_matched,mean_abs_dscore
+FasterRCNN,1440.0,1326.0,0.921,0.635,0.31,0.907,0.148
+YOLOv8n,2904.0,1910.0,0.658,0.462,0.297,0.909,0.082

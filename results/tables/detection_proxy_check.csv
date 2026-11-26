@@ -1,0 +1,3 @@
+detector,boxes,fp_candidates,fp_candidate_share,blobs_total,blobs_not_covered,miss_candidate_share
+YOLOv8n,363,264,0.7272727272727273,458,306,0.6681222707423581
+FasterRCNN,180,86,0.4777777777777778,458,54,0.11790393013100436

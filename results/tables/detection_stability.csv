@@ -1,0 +1,17 @@
+detector,aug_name,n_orig,n_aug,count_ratio,kept_rate,new_rate,mean_iou_matched,mean_abs_dscore
+YOLOv8n,bc_medium,363.0,208.0,0.573,0.559,0.024,0.96,0.064
+YOLOv8n,noise_medium,363.0,106.0,0.292,0.157,0.462,0.917,0.138
+YOLOv8n,noise_strong,363.0,128.0,0.353,0.118,0.664,0.888,0.15
+YOLOv8n,blur_medium,363.0,339.0,0.934,0.73,0.218,0.889,0.063
+YOLOv8n,blur_strong,363.0,50.0,0.138,0.069,0.5,0.832,0.153
+YOLOv8n,gamma_medium,363.0,276.0,0.76,0.702,0.076,0.96,0.06
+YOLOv8n,rot90,363.0,443.0,1.22,0.642,0.474,0.862,0.111
+YOLOv8n,flip_h,363.0,360.0,0.992,0.722,0.272,0.892,0.078
+FasterRCNN,bc_medium,180.0,190.0,1.056,0.889,0.158,0.949,0.066
+FasterRCNN,noise_medium,180.0,142.0,0.789,0.467,0.408,0.873,0.192
+FasterRCNN,noise_strong,180.0,157.0,0.872,0.406,0.535,0.866,0.198
+FasterRCNN,blur_medium,180.0,201.0,1.117,0.778,0.303,0.909,0.157
+FasterRCNN,blur_strong,180.0,120.0,0.667,0.478,0.283,0.873,0.22
+FasterRCNN,gamma_medium,180.0,159.0,0.883,0.794,0.101,0.955,0.091
+FasterRCNN,rot90,180.0,195.0,1.083,0.572,0.472,0.863,0.236
+FasterRCNN,flip_h,180.0,162.0,0.9,0.7,0.222,0.905,0.126

@@ -1,0 +1,8 @@
+,iou_gc_sam2,gc_fill_ratio,sam_fill_ratio,box_contrast,box_overlap_iou,box_area_frac,sam2_pred_iou
+iou_gc_sam2,1.0,0.8,0.11,0.68,0.14,0.61,0.82
+gc_fill_ratio,0.8,1.0,0.53,0.72,0.08,0.3,0.64
+sam_fill_ratio,0.11,0.53,1.0,0.43,-0.02,-0.41,0.08
+box_contrast,0.68,0.72,0.43,1.0,0.11,0.39,0.77
+box_overlap_iou,0.14,0.08,-0.02,0.11,1.0,0.24,0.21
+box_area_frac,0.61,0.3,-0.41,0.39,0.24,1.0,0.7
+sam2_pred_iou,0.82,0.64,0.08,0.77,0.21,0.7,1.0

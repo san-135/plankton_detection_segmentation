@@ -1,0 +1,19 @@
+name,kind,level,group,label,invertible_boxes
+bc_weak,brightness_contrast,"(10, 1.08)",яркость/контраст,"ярк. +10, контр. ×1.08",True
+bc_medium,brightness_contrast,"(20, 1.15)",яркость/контраст,"ярк. +20, контр. ×1.15",True
+bc_strong,brightness_contrast,"(-40, 0.7)",яркость/контраст,"ярк. −40, контр. ×0.7",True
+noise_weak,gaussian_noise,8,шум,шум σ=8,True
+noise_medium,gaussian_noise,20,шум,шум σ=20,True
+noise_strong,gaussian_noise,40,шум,шум σ=40,True
+blur_weak,gaussian_blur,1,размытие,размытие σ=1,True
+blur_medium,gaussian_blur,3,размытие,размытие σ=3,True
+blur_strong,gaussian_blur,8,размытие,размытие σ=8,True
+gamma_weak,gamma,0.8,гамма,гамма 0.8,True
+gamma_medium,gamma,1.4,гамма,гамма 1.4,True
+gamma_strong,gamma,2.2,гамма,гамма 2.2,True
+rot90,rotate90,1,геометрия,поворот 90°,True
+rot15,rotate,15,геометрия,поворот 15° (заливка фоном),False
+flip_h,flip,h,геометрия,отражение гориз.,True
+flip_v,flip,v,геометрия,отражение верт.,True
+scale_0.8,scale,0.8,геометрия,масштаб ×0.8,False
+scale_1.25,scale,1.25,геометрия,масштаб ×1.25,False

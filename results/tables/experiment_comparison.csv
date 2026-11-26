@@ -1,0 +1,7 @@
+№,этап,метод,данные,параметры,единиц обработки,"среднее время, мс",результат
+Эксп. 1,детекция,YOLOv8n,original,"conf>=0.15, NMS IoU=0.5 (class-agnostic), max 100, imgsz=1024",50,14.5,363 рамок; 7.26 рамок/запуск; 96% запусков с ≥1 рамкой; ср. score 0.28
+Эксп. 2,детекция,YOLOv8n,augmented,"conf>=0.15, NMS IoU=0.5 (class-agnostic), max 100, imgsz=1024; аугм.: bc_medium, noise_medium, noise_strong, blur_medium, blur_strong, gamma_medium, rot90, flip_h",400,13.5,1910 рамок; 4.78 рамок/запуск; 90% запусков с ≥1 рамкой; ср. score 0.28
+Эксп. 3,детекция,FasterRCNN,original,"conf>=0.15, NMS IoU=0.5 (class-agnostic), max 100, вход ~800-1333 px",50,157.9,180 рамок; 3.60 рамок/запуск; 98% запусков с ≥1 рамкой; ср. score 0.44
+Эксп. 4,детекция,FasterRCNN,augmented,"conf>=0.15, NMS IoU=0.5 (class-agnostic), max 100, вход ~800-1333 px; аугм.: bc_medium, noise_medium, noise_strong, blur_medium, blur_strong, gamma_medium, rot90, flip_h",400,156.7,1326 рамок; 3.31 рамок/запуск; 95% запусков с ≥1 рамкой; ср. score 0.46
+Сегм.,сегментация,GrabCut,исходные,"рамки YOLOv8n; iters=5, кроп с запасом 15%",326,368.3,"медиана заполнения рамки 0.42; thin=0.01; выход за рамку 0.00; IoU(GC,SAM2) медиана 0.69"
+Сегм.,сегментация,SAM 2,исходные,"рамки YOLOv8n; sam2.1_hiera_large, box prompt, multimask=False",326,120.8,"медиана заполнения рамки 0.60; thin=0.01; выход за рамку 0.01; IoU(GC,SAM2) медиана 0.69"
